@@ -19,4 +19,6 @@
 
 [Erik Rigtorp](https://rigtorp.se) - Blog and resources on high-performance C++ and low-latency programming. Features posts on ring buffer optimization, spinlocks, virtual memory latency, huge pag[...]  
 
-[SWAR Explained: Parsing Eight Digits](https://lemire.me/blog/2022/01/21/swar-explained-parsing-eight-digits/) - Detailed explanation of using SWAR (SIMD Within A Register) techniques for efficient parsing of multiple digits simultaneously in C++. Demonstrates practical performance optimization techniques.
+[SWAR Explained: Parsing Eight Digits](https://lemire.me/blog/2022/01/21/swar-explained-parsing-eight-digits/) - Detailed explanation of using SWAR (SIMD Within A Register) techniques for efficien[...]  
+
+[SIMD Demystified (PDF)](http://const.me/articles/simd/simd.pdf) - In-depth article explaining SIMD (Single Instruction, Multiple Data) concepts for C++ programmers, including practical examples and optimization techniques.
