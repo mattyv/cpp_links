@@ -3,9 +3,11 @@ layout: default
 title: Home
 ---
 
+<div class="container" markdown="1">
+
 # C++ Links
 
-A curated collection of C++ resources, tools, and articles.
+A curated collection of high-quality C++ resources, tools, and articles for developers.
 
 ## Table of Contents
 - [Performance and Optimization](#performance-and-optimization)
@@ -36,3 +38,5 @@ A curated collection of C++ resources, tools, and articles.
 
 ## General Resources
 - [Awesome Modern C++](https://awesomecpp.com) - Curated collection of resources for modern C++11/14/17/20. Includes books (Effective Modern C++, C++ Core Guidelines), community resources (CppCast).
+
+</div>
