@@ -19,6 +19,7 @@ A curated collection of C++ resources, tools, and articles.
 - [Hash Functions (CS 312)](https://www.cs.cornell.edu/courses/cs312/2008sp/lectures/lec21.html) - Overview of hash table implementation focusing on hash function design for uniform distribution.
 - [SMHasher3](https://gitlab.com/fwojcik/smhasher3) - Comprehensive test suite for evaluating non-cryptographic hash functions. Focuses on output distribution, collision detection, and performance testing.
 - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html) - Collection of public domain bit manipulation techniques covering sign computation, bit counting, parity, swapping, bit reversal.
+- [The PGM-index](https://pgm.di.unipi.it/) ([GitHub](https://github.com/gvinciguerra/PGM-index)) - Header-only C++ library implementing a learned index data structure with provable worst-case bounds. Enables fast lookup, predecessor, range searches in billions of items using orders of magnitude less space than traditional indexes.
 
 ## Language Implementation
 - [Crafting Interpreters](https://craftinginterpreters.com) - Free online book teaching language implementation from scratch. Builds a full-featured scripting language with rich syntax, dynamic typing.
