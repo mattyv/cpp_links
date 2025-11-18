@@ -21,6 +21,7 @@ A curated collection of C++ resources, tools, and articles.
 - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html) - Collection of public domain bit manipulation techniques covering sign computation, bit counting, parity, swapping, bit reversal.
 - [The PGM-index](https://pgm.di.unipi.it/) ([GitHub](https://github.com/gvinciguerra/PGM-index)) - Header-only C++ library implementing a learned index data structure with provable worst-case bounds. Enables fast lookup, predecessor, range searches in billions of items using orders of magnitude less space than traditional indexes.
 - [FASTER KV](https://microsoft.github.io/FASTER/docs/fasterkv-cpp/) - Concurrent key-value store from Microsoft Research supporting data larger than memory. Combines cache-optimized concurrent hash index with hybrid log architecture, achieving up to 160M ops/sec with fast in-place updates.
+- [Estrin's Method - Boost.Math](https://www.boost.org/doc/libs/1_87_0/libs/math/doc/html/math_toolkit/estrin.html) - C++ template library for polynomial evaluation using Estrin's scheme. Exploits instruction-level parallelism (ILP) to achieve ~4.4x speedup over Horner's method by reorganizing calculations to reduce dependency chains from O(n) to O(log n).
 
 ## Language Implementation
 - [Crafting Interpreters](https://craftinginterpreters.com) - Free online book teaching language implementation from scratch. Builds a full-featured scripting language with rich syntax, dynamic typing.
