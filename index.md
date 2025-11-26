@@ -17,6 +17,7 @@ A curated collection of high-quality C++ resources, tools, and articles for deve
 - [General Resources](#general-resources)
 
 ## Performance and Optimization
+- [Instruction Tables (PDF)](https://www.agner.org/optimize/instruction_tables.pdf) - Agner Fog's comprehensive reference of instruction latencies, throughputs, and micro-operation breakdowns for x86/x64 processors from Intel, AMD, and VIA. Essential resource for low-level optimization and understanding CPU pipeline behavior.
 - [Top-Down performance analysis methodology](https://easyperf.net/blog/2019/02/09/Top-Down-performance-analysis-methodology) - Formal methodology (TMAM) for identifying performance bottlenecks using PMU events and metrics.
 - [llvm-mca - LLVM Machine Code Analyzer](https://llvm.org/docs/CommandGuide/llvm-mca.html) - Performance analysis tool that statically measures machine code throughput and resource consumption using LLVM's scheduling models.
 - [Erik Rigtorp](https://rigtorp.se) - Blog and resources on high-performance C++ and low-latency programming. Features posts on ring buffer optimization, spinlocks, virtual memory latency, huge pages.
