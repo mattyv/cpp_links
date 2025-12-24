@@ -33,6 +33,7 @@ A curated collection of C++ resources, tools, and articles.
 - [Swar Library](https://programming.sirrida.de/swar.html) - Comprehensive C++ template library for SIMD/SWAR (SIMD Within A Register) operations. Provides classes for bit operations, parallel arithmetic.
 - [SWAR Explained: Parsing Eight Digits](https://lemire.me/blog/2022/01/21/swar-explained-parsing-eight-digits/) - Detailed explanation of using SWAR (SIMD Within A Register) techniques for efficient digit parsing.
 - [SIMD Demystified (PDF)](http://const.me/articles/simd/simd.pdf) - In-depth article explaining SIMD (Single Instruction, Multiple Data) concepts for C++ programmers, including practical examples.
+- [Float Tricks (PDF)](https://karmafx.net/docs/karmafx_floattricks.pdf) - Collection of fast floating-point calculation techniques by Kasper Nielsen. Covers IEEE 754 float representation, fast float-to-int conversions, and bit manipulation tricks for performance-critical code. Primarily Intel CPU/FPU focused but applicable to other platforms.
 
 ## General Resources
 - [Awesome Modern C++](https://awesomecpp.com) - Curated collection of resources for modern C++11/14/17/20. Includes books (Effective Modern C++, C++ Core Guidelines), community resources (CppCast).
