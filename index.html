@@ -157,6 +157,7 @@
 
     <h2 id="performance">Performance and Optimization</h2>
     <ul>
+      <li><a href="https://www.agner.org/optimize/instruction_tables.pdf">Instruction Tables (PDF)</a> - Agner Fog's comprehensive reference of instruction latencies, throughputs, and micro-operation breakdowns for x86/x64 processors from Intel, AMD, and VIA. Essential resource for low-level optimization and understanding CPU pipeline behavior.</li>
       <li><a href="https://easyperf.net/blog/2019/02/09/Top-Down-performance-analysis-methodology">Top-Down performance analysis methodology</a> - Formal methodology (TMAM) for identifying performance bottlenecks using PMU events and metrics.</li>
       <li><a href="https://llvm.org/docs/CommandGuide/llvm-mca.html">llvm-mca - LLVM Machine Code Analyzer</a> - Performance analysis tool that statically measures machine code throughput and resource consumption using LLVM's scheduling models.</li>
       <li><a href="https://rigtorp.se">Erik Rigtorp</a> - Blog and resources on high-performance C++ and low-latency programming. Features posts on ring buffer optimization, spinlocks, virtual memory latency, huge pages.</li>
@@ -169,7 +170,9 @@
       <li><a href="https://gitlab.com/fwojcik/smhasher3">SMHasher3</a> - Comprehensive test suite for evaluating non-cryptographic hash functions. Focuses on output distribution, collision detection, and performance testing.</li>
       <li><a href="https://graphics.stanford.edu/~seander/bithacks.html">Bit Twiddling Hacks</a> - Collection of public domain bit manipulation techniques covering sign computation, bit counting, parity, swapping, bit reversal.</li>
       <li><a href="https://pgm.di.unipi.it/">The PGM-index</a> (<a href="https://github.com/gvinciguerra/PGM-index">GitHub</a>) - Header-only C++ library implementing a learned index data structure with provable worst-case bounds. Enables fast lookup, predecessor, range searches in billions of items using orders of magnitude less space than traditional indexes.</li>
-      <li><a href="https://en.wikipedia.org/wiki/Fusion_tree">Fusion Tree</a> - Tree data structure for associative arrays on w-bit integers achieving O(log_w n) search time. Uses word-level parallelism and B-tree structure with branching factor w^(1/5). Invented by Fredman and Willard in 1990, asymptotically faster than traditional binary search trees.</li>
+      <li><a href="https://microsoft.github.io/FASTER/docs/fasterkv-cpp/">FASTER KV</a> - Concurrent key-value store from Microsoft Research supporting data larger than memory. Combines cache-optimized concurrent hash index with hybrid log architecture, achieving up to 160M ops/sec with fast in-place updates.</li>
+      <li><a href="https://www.boost.org/doc/libs/1_87_0/libs/math/doc/html/math_toolkit/estrin.html">Estrin's Method - Boost.Math</a> - C++ template library for polynomial evaluation using Estrin's scheme. Exploits instruction-level parallelism (ILP) to achieve ~4.4x speedup over Horner's method by reorganizing calculations to reduce dependency chains from O(n) to O(log n).</li>
+      <li><a href="https://en.wikipedia.org/wiki/Fusion_tree">Fusion Trees</a> - Advanced integer sorting data structure achieving O(log_w n) query time where w is the word size. Uses bit manipulation techniques to pack multiple keys into single words for parallel comparison operations.</li>
     </ul>
 
     <h2 id="language">Language Implementation</h2>
@@ -183,6 +186,7 @@
       <li><a href="https://programming.sirrida.de/swar.html">Swar Library</a> - Comprehensive C++ template library for SIMD/SWAR (SIMD Within A Register) operations. Provides classes for bit operations, parallel arithmetic.</li>
       <li><a href="https://lemire.me/blog/2022/01/21/swar-explained-parsing-eight-digits/">SWAR Explained: Parsing Eight Digits</a> - Detailed explanation of using SWAR (SIMD Within A Register) techniques for efficient digit parsing.</li>
       <li><a href="http://const.me/articles/simd/simd.pdf">SIMD Demystified (PDF)</a> - In-depth article explaining SIMD (Single Instruction, Multiple Data) concepts for C++ programmers, including practical examples.</li>
+      <li><a href="https://karmafx.net/docs/karmafx_floattricks.pdf">Float Tricks (PDF)</a> - Collection of fast floating-point calculation techniques by Kasper Nielsen. Covers IEEE 754 float representation, fast float-to-int conversions, and bit manipulation tricks for performance-critical code. Primarily Intel CPU/FPU focused but applicable to other platforms.</li>
     </ul>
 
     <h2 id="general">General Resources</h2>
