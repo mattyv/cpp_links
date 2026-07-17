@@ -44,5 +44,6 @@ A curated collection of high-quality C++ resources, tools, and articles for deve
 
 ## General Resources
 - [Awesome Modern C++](https://awesomecpp.com) - Curated collection of resources for modern C++11/14/17/20. Includes books (Effective Modern C++, C++ Core Guidelines), community resources (CppCast).
+- [Use the Tools Available](https://lefticus.gitbooks.io/cpp-best-practices/content/02-Use_the_Tools_Available.html) - Chapter from Jason Turner's C++ Best Practices covering source control, build tools, package managers, continuous integration, and static/dynamic analysis tools for C++ projects.
 
 </div>
